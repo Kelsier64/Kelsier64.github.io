@@ -114,3 +114,23 @@ github: [https://github.com/Kelsier64/ai_text_game](https://)
 ### 展示
 - github: [https://github.com/Kelsier64/order_manage_web](https://)
 
+## ai拼圖網站
+美術課自由發揮作業，我覺得效果不錯
+### 功能
+- 根據提示生成拼圖
+- 點擊拼圖可以查看提示詞
+- 輸入密碼可以看原圖
+### 技術棧
+- openai sdk:GPT Image
+### 展示
+![1000031424](https://hackmd.io/_uploads/rks4cXSgge.png)
+
+
+
+
+
+
+
+
+
+
