@@ -1,28 +1,29 @@
 # Kelsier64.github.io
 Welcome to my portfolio.
 嗨！我是Kelsier(凱西爾)一位覺得什麼有趣就開發什麼的高中生
-- **聯絡方式**: evan4556376@yahoo.com.tw
+- **聯絡方式**: evan.du.dog@gmail.com
 - github: [https://github.com/Kelsier64](https://)
 
 
 ## 關於我
-我是興趣導向的個人開發者，擅長python的原型開發以及api應用，喜歡研究最新技術
+我是興趣導向的個人開發者，擅長python的原型開發以及api或網站應用，喜歡研究最新技術
 ### 技能與經驗
 
 #### 後端開發  
-  - 熟悉 Django 和 Flask 框架，搭配 SQL 資料庫，具備 API 與 Web 開發經驗
+  - 熟悉python的 Django 和 Flask 框架，搭配SQL資料庫，有 API 與 Web 開發經驗
   
 #### 前端開發  
-  - 掌握 HTML、CSS、JavaScript（jQuery），並擅長使用 Jinja2
+  - 掌握 HTML、CSS、JavaScript（但系統學過的是過時的jQuery），常用 Jinja2
 
 #### 網路爬蟲  
-  - 使用 Python 的 Selenium 開發爬蟲工具
+  - 使用 Python 的 Selenium 開發動態爬蟲工具
 
 #### AI API 整合  
   - 長期使用 OpenAI SDK 開發，擅長將 AI 功能整合到不同應用場景中
+  - 有時也會直接用api request
 
 #### 物聯網開發
-  - 具備 Arduino 與 ESP32 的開發經驗，實現硬體與軟體的結合
+  - 具備 Arduino / ESP32 cam/ raspberry pi zero2 的開發經驗
 
 #### 伺服器部署與管理  
   - 長期使用 WSL（Windows 上的 Linux 環境）開發專案
@@ -33,14 +34,14 @@ Welcome to my portfolio.
   - 熟練使用 Git 和 GitHub 進行版本管理，適應團隊協作的工作流
 
 #### Markdown 文檔
-  - 習慣使用 hackmd 記錄開發過程，確保技術文檔清晰易讀
+  - 習慣使用 hackmd 記錄開發過程
 
 #### 資訊安全
   - 掌握基礎資安技術，會在專案中實作防護措施  
-  - 曾參加AIS3J，帶領小組獲得專題第一名
+  - 曾參加AIS3J，獲得優秀個人/帶領小組獲得專題第一名
 
 #### Docker
-  - 略懂 Docker 技術，能進行基本容器化部署，持續學習中
+  - 略懂 Docker 技術，能進行基本容器化部署
 
 ---
 
@@ -108,6 +109,7 @@ github: [https://github.com/Kelsier64/ai_text_game](https://)
 - 上傳一頁題目圖片自動**一題一題**生成詳解
 - 自動根據題型改變prompt
 - 處理題組/跨頁題組等多種複雜情況
+- 有discord端跟api端可以同時用
 ### 技術棧
 - openai sdk
 
@@ -117,11 +119,13 @@ github: [https://github.com/Kelsier64/ai_text_game](https://)
 ## ai拼圖網站
 美術課自由發揮作業，我覺得效果不錯
 ### 功能
-- 根據提示生成拼圖
+- 輸入提示詞生成拼圖
 - 點擊拼圖可以查看提示詞
 - 輸入密碼可以看原圖
+- 簡單但完整的前後端
 ### 技術棧
 - openai sdk:GPT Image
+- flask
 ### 展示
 ![1000031424](https://hackmd.io/_uploads/rks4cXSgge.png)
 
