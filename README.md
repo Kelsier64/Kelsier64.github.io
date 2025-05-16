@@ -1,6 +1,6 @@
 # Kelsier64.github.io
 Welcome to my portfolio.
-嗨！我是Kelsier(凱西爾)一位覺得什麼有趣就開發什麼的高中生
+嗨！我是Kelsier一位覺得什麼有趣就開發什麼的高中生
 - **聯絡方式**: evan.du.dog@gmail.com
 - github: [https://github.com/Kelsier64](https://)
 
@@ -38,7 +38,7 @@ Welcome to my portfolio.
 
 #### 資訊安全
   - 掌握基礎資安技術，會在專案中實作防護措施  
-  - 曾參加AIS3J，獲得優秀個人/帶領小組獲得專題第一名
+  - 曾參加AIS3J，獲得優秀個人/帶領小組獲得專題第一名：利用提示詞注入找出ai助理的function漏洞，並利用漏洞完成能rce的cve復現
 
 #### Docker
   - 略懂 Docker 技術，能進行基本容器化部署
@@ -54,7 +54,7 @@ Welcome to my portfolio.
 - ai角色之間可以互動
 - 每個物件/角色都有自己獨立的描述
 - 座標+狀態系統方便世界引擎套用到任何遊戲介面上
-- 多環境分區加載
+- 多環境自動加載/卸載
 
 ### 技術棧
 - asyncio
@@ -63,9 +63,9 @@ Welcome to my portfolio.
 ### 展示
 ![Screenshot 2024-10-20 013350](https://hackmd.io/_uploads/SyM1lsJC1g.png)
 這邊只展示了一點點，但可以看到有
-- 人物互動 他們講話
-- 物件互動 有人跑去讀書
-- 環境切換 有人離開房間跑去廚房做飯
+- 人物互動：他們講話
+- 物件互動：有人跑去讀書
+- 環境切換：有人離開房間跑去廚房做飯
 
 github: [https://github.com/Kelsier64/ai_text_game](https://)
 
@@ -75,7 +75,7 @@ github: [https://github.com/Kelsier64/ai_text_game](https://)
 - 指令快速使用克隆語音模型tts
 - 加入通話或是直接下載語音檔案
 - 自動配對經典關鍵字並自動合成語音
-- 多線程快速推理模型
+- 多線程加速模型推理
 ### 技術棧
 - discord.py
 - gpt-sovits微調/推理tts模型
@@ -110,8 +110,10 @@ github: [https://github.com/Kelsier64/ai_text_game](https://)
 - 自動根據題型改變prompt
 - 處理題組/跨頁題組等多種複雜情況
 - 有discord端跟api端可以同時用
+- 可處理有圖片的題目
 ### 技術棧
 - openai sdk
+- Asyncio + 多線程（discord服務與api端口）
 
 ### 展示
 - github: [https://github.com/Kelsier64/order_manage_web](https://)
